@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://quiel-randomquotes-generator.netlify.app/]
+- Live Site URL: [https://quiel-randomquotes-generator.netlify.app/](quiel-randomquotes-generator.netlify.app)
 
 ## My process
 
