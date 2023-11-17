@@ -51,6 +51,61 @@ body {
   font-style: italic;
 }
 
+.buttons-container {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.9rem;
+  height: 4rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  padding: 0.8rem 2.8rem;
+  box-shadow: 0 0.48rem rgba(121, 121, 121, 0.65);
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  transform: translate(0, 0.48rem);
+  box-shadow: 0 0.16rem rgba(255, 255, 255, 0.65);
+}
+
+.twitter-button:hover {
+  color: #38a1f3;
+}
+
+.fa-twitter {
+  font-size: 2.4rem;
+}
+
+/* Loader */
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #333;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
   .quote-container {
